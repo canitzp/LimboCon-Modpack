@@ -1,0 +1,8 @@
+{ 
+  "provider": "CURSE",
+  "name": "rswires",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ]
+}

@@ -1,0 +1,9 @@
+{ 
+  "provider": "CURSE",
+  "name": "mumblelink",
+  "side": "CLIENT",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ]
+}

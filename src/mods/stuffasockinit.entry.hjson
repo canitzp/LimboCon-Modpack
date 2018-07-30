@@ -1,0 +1,8 @@
+{ 
+  "provider": "CURSE",
+  "name": "stuff-a-sock-in-it",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ]
+}

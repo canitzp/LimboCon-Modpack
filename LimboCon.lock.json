@@ -1,0 +1,32 @@
+{ 
+  "name": "limbocon",
+  "title": "The Official LimboCon Modpack",
+  "version": "1.7.0",
+  "authors": [ 
+    "canitzp",
+    "Ristelle"
+  ],
+  "mcVersion": "1.12.2",
+  "forge": 2739,
+  "launch": { 
+    "flags": [ 
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  },
+  "userFiles": { 
+    "include": [ 
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude": [ 
+      ]
+  },
+  "localDir": "local",
+  "sourceDir": "src",
+  "features": [ 
+    { "entries": [ "FoamFix (Anarchy)" ], "properties": { "name": "FoamFix (Anarchy)", "selected": true, "description": "Foamfix!", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
+    { "entries": [ "journeymap" ], "properties": { "name": "journeymap", "selected": true, "description": "Minimap", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
+    { "entries": [ "toast-control", "placebo" ], "properties": { "name": "toast-control", "selected": true, "description": "Removes Minecraft annoying Toasts.", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
+    { "entries": [ "worldeditcui-forge-edition-2" ], "properties": { "name": "worldeditcui-forge-edition-2", "selected": false, "description": "If you don't know what this is, I suggest not ticking it.", "recommendation": null }, "files": { "include": [ ], "exclude": [ ] } }
+  ]
+}

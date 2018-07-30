@@ -1,0 +1,9 @@
+{ 
+  "provider": "DIRECT",
+  "name": "Computronics",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ],
+  "url": "https://files.vexatos.com/Computronics/dev/Computronics-1.12.2-1.6.6.183-ssml2.jar"
+}

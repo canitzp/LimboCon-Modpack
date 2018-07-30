@@ -1,0 +1,6 @@
+{ 
+  "provider": "DIRECT",
+  "name": "MatterLink",
+  "side": "SERVER",
+  "url": "https://ci.elytradev.com/job/elytra/job/MatterLink/job/master/lastSuccessfulBuild/artifact/1.12.2/build/libs/MatterLink-1.12.2-1.6.3-153.jar"
+}

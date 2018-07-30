@@ -1,0 +1,8 @@
+{ 
+  "provider": "CURSE",
+  "name": "rtfm",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ]
+}

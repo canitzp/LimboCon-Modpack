@@ -1,0 +1,11 @@
+{ 
+	"name": "limbocon",
+	"title": "The Official LimboCon Modpack",
+	"version": "1.7.0",
+	"authors": [ 
+		"canitzp",
+		"Ristelle"
+	],
+	"mcVersion": "1.12.2",
+	"forge": "2739"
+}

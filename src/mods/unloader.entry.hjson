@@ -1,0 +1,9 @@
+{ 
+  "provider": "CURSE",
+  "name": "unloader",
+  "side": "SERVER",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ]
+}

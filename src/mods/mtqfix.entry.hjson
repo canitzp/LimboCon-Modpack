@@ -1,0 +1,9 @@
+{ 
+  "provider": "CURSE",
+  "name": "mtqfix",
+  "side": "SERVER",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ]
+}

@@ -1,0 +1,14 @@
+{ 
+  "provider": "DIRECT",
+  "name": "FoamFix (Anarchy)",
+  "description": "Foamfix!",
+  "feature": { 
+    "selected": true,
+    "recommendation": "starred"
+  },
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ],
+  "url": "https://asie.pl/files/mods/FoamFix/foamfix-0.9.9.1-1.12.2-anarchy.jar"
+}
