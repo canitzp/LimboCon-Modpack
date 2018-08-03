@@ -5,7 +5,7 @@ forge: 2746
 authors: 
     - canitzp
     - Ristelle
-version: 1.8.0
+version: 1.8.1
 sourceDir: src
 root:
     validMcVersions: 
@@ -22,6 +22,8 @@ root:
     - chicken-chunks-1-8
     - chisel
     - chisels-bits
+    - more-dyeable-armors
+        version: 1.3.0
     - exchangers
     - extra-bit-manipulation
     - extra-utilities
