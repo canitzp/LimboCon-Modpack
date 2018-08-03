@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "mtqfix",
+  "id": "mtqfix",
+  "name": "MTQFix",
   "side": "SERVER",
   "projectID": 259059,
   "fileID": 2530391

@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "bibliocraft",
+  "id": "bibliocraft",
+  "name": "BiblioCraft",
   "projectID": 228027,
   "fileID": 2574880
 }

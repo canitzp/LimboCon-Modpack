@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "quark",
+  "id": "quark",
+  "name": "Quark",
   "projectID": 243121,
   "fileID": 2573421
 }

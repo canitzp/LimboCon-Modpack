@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "worldedit",
+  "id": "worldedit",
+  "name": "WorldEdit",
   "side": "SERVER",
   "projectID": 225608,
   "fileID": 2460570

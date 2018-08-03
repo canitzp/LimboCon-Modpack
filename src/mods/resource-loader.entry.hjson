@@ -1,0 +1,13 @@
+{ 
+  "provider": "CURSE",
+  "id": "resource-loader",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ],
+  "curseReleaseTypes": [ 
+    "ALPHA",
+    "BETA",
+    "RELEASE"
+  ]
+}

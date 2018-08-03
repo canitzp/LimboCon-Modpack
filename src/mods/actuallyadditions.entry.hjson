@@ -1,8 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "name": "actually-additions",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
-  ]
-}

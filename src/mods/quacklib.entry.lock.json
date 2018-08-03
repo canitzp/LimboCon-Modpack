@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "quacklib",
+  "id": "quacklib",
+  "name": "QuackLib",
   "projectID": 276915,
   "fileID": 2588171
 }

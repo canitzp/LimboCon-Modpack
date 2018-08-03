@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "retrocomputers",
+  "id": "retrocomputers",
+  "name": "RetroComputers",
   "projectID": 276918,
-  "fileID": 2592792
+  "fileID": 2595488
 }

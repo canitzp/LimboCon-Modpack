@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "baubles",
+  "id": "baubles",
+  "name": "Baubles",
   "projectID": 227083,
   "fileID": 2518667
 }

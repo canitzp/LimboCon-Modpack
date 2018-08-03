@@ -1,6 +1,6 @@
 { 
   "provider": "DIRECT",
-  "name": "MatterLink",
+  "id": "MatterLink",
   "side": "SERVER",
   "validMcVersions": [ 
     "1.12.1",

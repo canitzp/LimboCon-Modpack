@@ -1,6 +1,6 @@
 { 
   "provider": "DIRECT",
-  "name": "FCL",
+  "id": "FCL",
   "validMcVersions": [ 
     "1.12.1",
     "1.12.2"

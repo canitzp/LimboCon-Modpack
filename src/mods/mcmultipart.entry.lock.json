@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "mcmultipart",
+  "id": "mcmultipart",
+  "name": "MCMultiPart",
   "projectID": 239431,
   "fileID": 2556409
 }

@@ -1,6 +1,6 @@
 { 
   "provider": "CURSE",
-  "name": "journeymap",
+  "id": "journeymap",
   "description": "Minimap",
   "feature": { 
     "selected": true,
@@ -10,5 +10,10 @@
   "validMcVersions": [ 
     "1.12.1",
     "1.12.2"
+  ],
+  "curseReleaseTypes": [ 
+    "ALPHA",
+    "BETA",
+    "RELEASE"
   ]
 }

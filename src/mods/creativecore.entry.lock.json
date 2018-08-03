@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "creativecore",
+  "id": "creativecore",
+  "name": "CreativeCore",
   "projectID": 257814,
   "fileID": 2590440
 }

@@ -1,8 +1,13 @@
 { 
   "provider": "CURSE",
-  "name": "rtfm",
+  "id": "rtfm",
   "validMcVersions": [ 
     "1.12.1",
     "1.12.2"
+  ],
+  "curseReleaseTypes": [ 
+    "ALPHA",
+    "BETA",
+    "RELEASE"
   ]
 }

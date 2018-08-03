@@ -1,9 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "name": "no-recipe-book",
-  "side": "CLIENT",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
-  ]
-}

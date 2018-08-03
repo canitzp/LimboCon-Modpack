@@ -1,9 +1,14 @@
 { 
   "provider": "CURSE",
-  "name": "extendpolyphonylimit",
+  "id": "extendpolyphonylimit",
   "side": "CLIENT",
   "validMcVersions": [ 
     "1.12.1",
     "1.12.2"
+  ],
+  "curseReleaseTypes": [ 
+    "ALPHA",
+    "BETA",
+    "RELEASE"
   ]
 }

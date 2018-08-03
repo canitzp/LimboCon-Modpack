@@ -1,8 +1,13 @@
 { 
   "provider": "CURSE",
-  "name": "laggoggles",
+  "id": "laggoggles",
   "validMcVersions": [ 
     "1.12.1",
     "1.12.2"
+  ],
+  "curseReleaseTypes": [ 
+    "ALPHA",
+    "BETA",
+    "RELEASE"
   ]
 }

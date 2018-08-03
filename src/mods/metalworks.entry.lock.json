@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "metalworks",
+  "id": "metalworks",
+  "name": "Metalworks: Making metal work for you!",
   "projectID": 282223,
   "fileID": 2551049
 }

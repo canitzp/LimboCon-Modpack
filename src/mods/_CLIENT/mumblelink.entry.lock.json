@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "mumblelink",
+  "id": "mumblelink",
+  "name": "MumbleLink",
   "side": "CLIENT",
   "projectID": 222432,
   "fileID": 2518559

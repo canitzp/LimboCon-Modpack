@@ -1,6 +1,6 @@
 { 
   "provider": "DIRECT",
-  "name": "FoamFix (Anarchy)",
+  "id": "FoamFix (Anarchy)",
   "description": "Foamfix!",
   "feature": { 
     "selected": true,

@@ -1,8 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "name": "resource-loader",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
-  ]
-}

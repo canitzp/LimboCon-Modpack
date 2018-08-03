@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "rswires",
+  "id": "rswires",
+  "name": "RSWires",
   "projectID": 286328,
   "fileID": 2595068
 }

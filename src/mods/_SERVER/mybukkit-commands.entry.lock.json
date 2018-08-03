@@ -1,0 +1,8 @@
+{ 
+  "provider": "CURSE",
+  "id": "mybukkit-commands",
+  "name": "Mycommands",
+  "side": "SERVER",
+  "projectID": 76460,
+  "fileID": 2492288
+}

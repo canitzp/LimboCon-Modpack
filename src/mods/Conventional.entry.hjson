@@ -1,6 +1,6 @@
 { 
   "provider": "DIRECT",
-  "name": "Conventional",
+  "id": "Conventional",
   "validMcVersions": [ 
     "1.12.1",
     "1.12.2"

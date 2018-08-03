@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "forestry",
+  "id": "forestry",
+  "name": "Forestry",
   "projectID": 59751,
-  "fileID": 2584154
+  "fileID": 2595162
 }

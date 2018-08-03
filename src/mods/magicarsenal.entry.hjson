@@ -1,8 +1,0 @@
-{ 
-  "provider": "CURSE",
-  "name": "magic-arsenal",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
-  ]
-}

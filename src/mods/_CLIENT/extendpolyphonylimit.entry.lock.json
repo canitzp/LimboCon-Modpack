@@ -1,6 +1,7 @@
 { 
   "provider": "CURSE",
-  "name": "extendpolyphonylimit",
+  "id": "extendpolyphonylimit",
+  "name": "ExtendPolyphonyLimit",
   "side": "CLIENT",
   "projectID": 278844,
   "fileID": 2484408
