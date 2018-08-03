@@ -22,8 +22,8 @@ root:
     - chicken-chunks-1-8
     - chisel
     - chisels-bits
-    - more-dyeable-armors
-        version:1.3.0
+    -     id: more-dyeable-armors
+          curseReleaseTypes: [ beta, release ]
     - exchangers
     - extra-bit-manipulation
     - extra-utilities
