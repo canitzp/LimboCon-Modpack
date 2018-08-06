@@ -22,8 +22,6 @@ root:
     - chicken-chunks-1-8
     - chisel
     - chisels-bits
-    -     id: more-dyeable-armors
-          curseReleaseTypes: [ beta, release ]
     - exchangers
     - extra-bit-manipulation
     - extra-utilities
@@ -40,6 +38,7 @@ root:
     - metalworks
     - minecolonies
     - mob-grinding-utils
+    - more-dyeable-armors
     - onlinepictureframe
     - opencomputers
     - quacklib
