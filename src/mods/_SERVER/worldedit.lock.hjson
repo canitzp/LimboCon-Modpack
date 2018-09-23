@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: worldedit,
+  name: WorldEdit,
+  side: SERVER,
+  projectID: 225608,
+  fileID: 2460570
+}

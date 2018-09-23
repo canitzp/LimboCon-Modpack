@@ -1,0 +1,7 @@
+{
+  provider: CURSE,
+  id: exchangers,
+  name: Exchangers,
+  projectID: 270183,
+  fileID: 2579652
+}

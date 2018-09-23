@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: nonausea,
+  name: NoNausea,
+  side: CLIENT,
+  projectID: 226035,
+  fileID: 2432422
+}

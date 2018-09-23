@@ -1,19 +1,19 @@
-{ 
-  "provider": "CURSE",
-  "id": "journeymap",
-  "description": "Minimap",
-  "feature": { 
-    "selected": true,
-    "recommendation": "starred"
+{
+  provider: CURSE,
+  id: journeymap,
+  description: Minimap,
+  feature: {
+    selected: true,
+    recommendation: starred
   },
-  "side": "CLIENT",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
+  side: CLIENT,
+  validMcVersions: [
+    1.12.1,
+    1.12.2
   ],
-  "curseReleaseTypes": [ 
-    "ALPHA",
-    "BETA",
-    "RELEASE"
+  curseReleaseTypes: [
+    ALPHA,
+    RELEASE,
+    BETA
   ]
 }

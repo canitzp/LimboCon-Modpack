@@ -1,0 +1,6 @@
+{
+  provider: DIRECT,
+  id: ImmersiveRailroading,
+  name: ImmersiveRailroading,
+  url: "https://media.forgecdn.net/files/2596/454/ImmersiveRailroading-1.3.2_1.12.jar"
+}

@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: placebo,
+  name: Placebo,
+  side: CLIENT,
+  projectID: 283644,
+  fileID: 2600853
+}

@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: unloader,
+  name: Unloader,
+  side: SERVER,
+  projectID: 286230,
+  fileID: 2572528
+}

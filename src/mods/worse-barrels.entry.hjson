@@ -1,13 +1,13 @@
-{ 
-  "provider": "CURSE",
-  "id": "worse-barrels",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
+{
+  provider: CURSE,
+  id: worse-barrels,
+  validMcVersions: [
+    1.12.1,
+    1.12.2
   ],
-  "curseReleaseTypes": [ 
-    "ALPHA",
-    "BETA",
-    "RELEASE"
+  curseReleaseTypes: [
+    ALPHA,
+    RELEASE,
+    BETA
   ]
 }
