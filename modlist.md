@@ -273,7 +273,7 @@ Author | `falkreon`
 Mod | MatterLink
 ---|---
 Provider | `DIRECT`
-Version | `MatterLink-1.12.2-1.6.3-153`
+Version | `MatterLink-1.12.2-1.6.4-159`
 
 Mod | MCMultiPart
 ---|---
