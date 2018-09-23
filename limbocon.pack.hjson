@@ -2,10 +2,11 @@
     id: limbocon,
     mcVersion: 1.12.2,
     title: "The Official LimboCon Modpack",
-    version: 1.8.1,
+    version: 1.9.0,
     authors: [
         canitzp,
-        Ristelle
+        Ristelle,
+        Gamer025
     ],
-    forge: 2746
+    forge: 2759
 }

@@ -1,9 +1,9 @@
 Title | The Official LimboCon Modpack
 ---|---
 ID | `limbocon`
-Pack Version | `1.8.1`
+Pack Version | `1.9.0`
 MC Version | `1.12.2`
-Author | `canitzp, Ristelle`
+Author | `canitzp, Ristelle, Gamer025`
 Icon | <img src="icon.png" alt="icon" style="max-height: 128px;"/>
 
 
