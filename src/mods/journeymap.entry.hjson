@@ -12,8 +12,8 @@
     1.12.2
   ],
   curseReleaseTypes: [
-    ALPHA,
     RELEASE,
+    ALPHA,
     BETA
   ]
 }

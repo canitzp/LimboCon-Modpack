@@ -71,10 +71,6 @@ root:
           url: "https://files.vexatos.com/Conventional/dev/Conventional-1.12.1-0.0.18.jar"
       -   id: ConventionalChat
           url: "https://files.vexatos.com/Conventional/dev/ConventionalChat-1.12.1-0.0.5.jar"
-      -   id: FCL
-          url: "http://fexcraft.net/temp/fvtm_2.7.b31_pre/Fexcraft Common Library-XII.42-lc_pre.jar"
-      -   id: FVTM
-          url: "http://fexcraft.net/temp/fvtm_2.7.b31_pre/FVTM-2.7.b30-lc_pre-1.12.x.jar"
       -   id: ImmersiveRailroading
           url: "https://media.forgecdn.net/files/2596/454/ImmersiveRailroading-1.3.2_1.12.jar"
     - feature:

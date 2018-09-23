@@ -169,11 +169,6 @@ Version | `Extra Utilities 2 - 1.12 - 1.9.3`
 Release Type | `RELEASE`
 Author | `RWTema`
 
-Mod | FCL
----|---
-Provider | `DIRECT`
-Version | `Fexcraft Common Library-XII.42-lc_pre`
-
 Mod | Flat Colored Blocks
 ---|---
 Provider | `CURSE`
@@ -192,11 +187,6 @@ Provider | `CURSE`
 Version | `forestry_1.12.2-5.8.1.344.jar`
 Release Type | `BETA`
 Author | `CovertJaguar, mezz, MysteriousAges, SirSengir`
-
-Mod | FVTM
----|---
-Provider | `DIRECT`
-Version | `FVTM-2.7.b30-lc_pre-1.12.x`
 
 Mod | Guide-API
 ---|---
