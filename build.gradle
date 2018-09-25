@@ -1,11 +1,10 @@
 import org.apache.commons.io.FileUtils
-
-import java.nio.file.DirectoryStream
-import java.nio.file.Path
+import groovy.swing.SwingBuilder
 
 buildscript {
 	dependencies {
 		classpath group: 'commons-io', name: 'commons-io', version: '2.6'
+		classpath group: 'org.codehaus.groovy', name: 'groovy-swing', version: '2.5.2'
 	}
 }
 
@@ -147,5 +146,30 @@ task clearVoodooCache << {
 		}
 	} else {
 		println 'OS unknown or undetectable'
+	}
+}
+
+task gui {
+	new SwingBuilder().edt {
+		dialog(modal: true,
+				title: 'Enter password',
+				alwaysOnTop: true,
+				resizable: false,
+				locationRelativeTo: null,
+				pack: true,
+				show: true
+		) {
+			vbox {
+				button(defaultButton: false, text: 'Download voodoo (Bootstrap)', actionPerformed: {
+					dispose()
+					exec{
+						commandLine "gradlew", "downloadVoodooBootstrap"
+					}
+				})
+				button(defaultButton: true, text: 'Exit', actionPerformed: {
+					dispose()
+				})
+			}
+		}
 	}
 }
