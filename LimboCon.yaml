@@ -26,7 +26,11 @@ root:
     - exchangers
     - extra-bit-manipulation
     - extra-utilities
-    - fexcraft-common-library
+    - provider: DIRECT
+      entries:
+      -   id: fexcraft-common-library
+          name: "Fexcraft Common Library X43"
+          url: "https://canitzp.de/fcl.jar"
     - fexs-vehicle-mod
     - flat-colored-blocks
     - forestry

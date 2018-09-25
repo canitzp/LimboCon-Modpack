@@ -176,12 +176,10 @@ Version | `FVTM v. 2.7.32`
 Release Type | `RELEASE`
 Author | `FEX96`
 
-Mod | Fexcraft Common Library
+Mod | Fexcraft Common Library X43
 ---|---
-Provider | `CURSE`
-Version | `FCL - XII.43`
-Release Type | `RELEASE`
-Author | `FEX96`
+Provider | `DIRECT`
+Version | `fcl`
 
 Mod | Flat Colored Blocks
 ---|---
@@ -313,7 +311,7 @@ Author | `canitzp, Mistererwin`
 Mod | Minecolonies
 ---|---
 Provider | `CURSE`
-Version | `minecolonies-1.12.2-0.9.3-RELEASE-universal.jar`
+Version | `minecolonies-1.12.2-0.9.4-RELEASE-universal.jar`
 Release Type | `RELEASE`
 Author | `flaminyogurt, H3lay, Kostronor, MinecoloniesPete`
 
