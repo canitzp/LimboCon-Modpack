@@ -1,11 +1,12 @@
-{ 
-	"id": "limbocon",
-	"title": "The Official LimboCon Modpack",
-	"version": "1.8.1",
-	"authors": [ 
-		"canitzp",
-		"Ristelle"
-	],
-	"mcVersion": "1.12.2",
-	"forge": "2746"
+{
+    id: limbocon,
+    mcVersion: 1.12.2,
+    title: "The Official LimboCon Modpack",
+    version: 1.9.0,
+    authors: [
+        canitzp,
+        Ristelle,
+        Gamer025
+    ],
+    forge: 2760
 }

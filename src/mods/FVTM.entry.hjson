@@ -1,9 +1,0 @@
-{ 
-  "provider": "DIRECT",
-  "id": "FVTM",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
-  ],
-  "url": "http://fexcraft.net/temp/fvtm_2.7.b31_pre/FVTM-2.7.b30-lc_pre-1.12.x.jar"
-}

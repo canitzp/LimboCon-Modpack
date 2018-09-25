@@ -1,9 +1,0 @@
-{ 
-  "provider": "DIRECT",
-  "id": "FCL",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
-  ],
-  "url": "http://fexcraft.net/temp/fvtm_2.7.b31_pre/Fexcraft Common Library-XII.42-lc_pre.jar"
-}

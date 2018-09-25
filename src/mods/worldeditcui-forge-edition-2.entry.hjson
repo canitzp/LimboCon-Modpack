@@ -1,18 +1,18 @@
-{ 
-  "provider": "CURSE",
-  "id": "worldeditcui-forge-edition-2",
-  "description": "If you don't know what this is, I suggest not ticking it.",
-  "feature": { 
-    "selected": false
+{
+  provider: CURSE,
+  id: worldeditcui-forge-edition-2,
+  description: "If you don't know what this is, I suggest not ticking it.",
+  feature: {
+    selected: false
   },
-  "side": "CLIENT",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
+  side: CLIENT,
+  validMcVersions: [
+    1.12.1,
+    1.12.2
   ],
-  "curseReleaseTypes": [ 
-    "ALPHA",
-    "BETA",
-    "RELEASE"
+  curseReleaseTypes: [
+    RELEASE,
+    ALPHA,
+    BETA
   ]
 }

@@ -1,3 +1,5 @@
 voodoo.jar
 /workspace
-/.server
+/server_*
+/.gradle
+/src/mods

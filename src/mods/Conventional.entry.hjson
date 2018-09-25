@@ -1,9 +1,9 @@
-{ 
-  "provider": "DIRECT",
-  "id": "Conventional",
-  "validMcVersions": [ 
-    "1.12.1",
-    "1.12.2"
+{
+  provider: DIRECT,
+  id: Conventional,
+  validMcVersions: [
+    1.12.1,
+    1.12.2
   ],
-  "url": "https://files.vexatos.com/Conventional/dev/Conventional-1.12.1-0.0.18.jar"
+  url: "https://files.vexatos.com/Conventional/dev/Conventional-1.12.1-0.0.18.jar"
 }

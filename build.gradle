@@ -1,0 +1,151 @@
+import org.apache.commons.io.FileUtils
+
+import java.nio.file.DirectoryStream
+import java.nio.file.Path
+
+buildscript {
+	dependencies {
+		classpath group: 'commons-io', name: 'commons-io', version: '2.6'
+	}
+}
+
+plugins {
+    id "de.undercouch.download" version "3.4.3"
+}
+
+ext{
+	projectName = "LimboCon"
+}
+
+task downloadVoodooBootstrap(type: Download) {
+	src "https://ci.elytradev.com/job/elytra/job/Voodoo/job/rewrite/45/artifact/bootstrap/build/libs/bootstrap-voodoo-45.jar"
+	dest new File("voodoo.jar")
+}
+
+def deleteOldFilesBeforeBuild(){
+	File f = new File("src", "mods")
+	if(f.exists()){
+		f.delete()
+	}
+	f = new File("${projectName}.json")
+	if(f.exists()){
+		f.delete()
+	}
+	f = new File("${projectName}.lock.json")
+	if(f.exists()){
+		f.delete()
+	}
+}
+
+def executeImport(){
+	javaexec{
+		main = "-jar"
+		args = [
+				"voodoo.jar",
+				"import",
+				"yaml",
+				"${projectName}.yaml"
+		]
+	}
+}
+
+def executeBuild(){
+	javaexec{
+		main = "-jar"
+		args = [
+				"voodoo.jar",
+				"build",
+				"${projectName}.pack.hjson",
+				"-o",
+				"${projectName}.lock.json",
+				"--updateAll"
+		]
+	}
+}
+
+task buildPack() << {
+	deleteOldFilesBeforeBuild()
+	executeImport()
+	executeBuild()
+}
+
+task deployClient() << {
+	javaexec{
+		main = "-jar"
+		args = [
+				"voodoo.jar",
+				"pack",
+				"sk",
+				"${projectName}.lock.json"
+		]
+	}
+}
+
+task deployServer() << {
+	javaexec{
+		main = "-jar"
+		args = [
+				"voodoo.jar",
+				"pack",
+				"server",
+				"${projectName}.lock.json"
+		]
+	}
+	javaexec{
+		workingDir = new File("server_" + projectName.toLowerCase(Locale.ENGLISH))
+		main = "-jar"
+		args = [
+				"server-installer.jar",
+				"server"
+		]
+	}
+}
+
+task deployBoth {
+	finalizedBy deployClient, deployServer
+
+}
+
+task testMMC << {
+	javaexec{
+		main = "-jar"
+		args = [
+				"voodoo.jar",
+				"test",
+				"mmc",
+				"${projectName}.lock.json",
+				"--clean"
+		]
+	}
+}
+
+task packMMC << {
+	javaexec{
+		main = "-jar"
+		args = [
+				"voodoo.jar",
+				"pack",
+				"mmc",
+				"${projectName}.lock.json"
+		]
+	}
+}
+
+task clearVoodooCache << {
+	File cacheDir = null
+	String osName = System.properties['os.name'].toLowerCase()
+	if (osName.contains('windows')) {
+		cacheDir = new File(System.getenv("APPDATA"), "voodoo" + File.separator + "Cache")
+	} else if(osName.contains("linux")){
+		cacheDir = new File(System.getenv("user.dir"), ".voodoo" + File.separator + "cache")
+	} else if(osName.contains("osx")){
+		cacheDir = new File(System.getenv("user.dir"), "Library" + File.separator + ".voodoo" + File.separator + "Caches")
+	}
+	if(cacheDir != null){
+		if(cacheDir.exists()){
+			FileUtils.deleteDirectory(cacheDir)
+		}
+	} else {
+		println 'OS unknown or undetectable'
+	}
+}
